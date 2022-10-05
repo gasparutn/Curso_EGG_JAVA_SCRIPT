@@ -1,3 +1,4 @@
+/*
 var elementos = ["Papa", "Camote", "Lechuga", "Tomate", "Acelga"];
 
 
@@ -10,8 +11,20 @@ prompt("Se van eliminar dos elementos. Desea continuar? Enter")
 elementos.splice(3, 2);
 console.log(elementos);
 alert("Se eliminaron los ultimos 2 elementos")
-<<<<<<< HEAD
 alert(elementos);
-=======
+alert("FURTAS RESTANTES")
 alert("FRUTAS:"+elementos);
->>>>>>> 2c76b97d47d1707989ef1f61f89cb83fb832c1d6
+*/
+
+var array = [10]
+
+for (let i = 0; i < 10; i++) {
+    array[i] = [Math.random(10)]
+}
+
+console.log(array)
+
+array.pop()
+
+
+console.log(array)
