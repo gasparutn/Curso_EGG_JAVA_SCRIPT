@@ -6,6 +6,7 @@ function Circulo() {
 
     this.radio = parseInt(prompt("Ingrese el radio del circulo"));
     const PI = Math.PI;
+    
     this.area = function (radio) {
 
         var aux = PI * Math.pow(this.radio, 2);

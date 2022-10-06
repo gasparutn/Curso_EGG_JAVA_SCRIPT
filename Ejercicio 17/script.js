@@ -25,6 +25,6 @@ for (let i = 0; i < 10; i++) {
 console.log(array)
 
 array.pop()
-
+array.pop()
 
 console.log(array)

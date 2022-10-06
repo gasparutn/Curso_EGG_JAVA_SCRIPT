@@ -6,35 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 23</title>
-
-
 </head>
 
 <body>
-   
 
     <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero possimus perspiciatis, 
-        cupiditate odio aperiam magnam repellat officiis soluta ipsa consectetur, fugit aspernatur 
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero possimus perspiciatis,
+        cupiditate odio aperiam magnam repellat officiis soluta ipsa consectetur, fugit aspernatur
         quisquam esse. Quae harum deleniti perspiciatis quasi magni.
     </p>
-    
+
     <script>
-
-
         var parrafo = document.getElementsByTagName("p").item(0);
-        var pag= parrafo.innerHTML
+        var pag = parrafo.innerHTML
         var array = pag.split(' ');
-        
+
         array.forEach(palabra => {
-        if(palabra.length > 8) {
-            pag = pag.split(palabra).join(`<mark>${palabra }</mark>`)
-        }
+            if (palabra.length > 8) {
+                pag = pag.split(palabra).join(`<mark>${palabra}</mark>`)
+            }
         })
-        parrafo.innerHTML= pag;
-        
-        </script>
-    
+        parrafo.innerHTML = pag;
+    </script>
 </body>
 
 </html>

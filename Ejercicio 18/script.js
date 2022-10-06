@@ -1,8 +1,8 @@
 var valores = [true, 5, false, "hola", "adios", 2];
 console.log("Cantidad de elementoa del array: " + valores.length); // cantidad de elementos dentro del ARRAY
 
-console.log("Elemento en su posicion 3: "+valores[3]);
-console.log("Elemento en su posicion 4: "+valores[4]);
+console.log("Elemento en su posicion 3: " + valores[3]);
+console.log("Elemento en su posicion 4: " + valores[4]);
 
 a = [3];
 b = [4];
@@ -40,7 +40,7 @@ function matematica(a, b) {
 }
 
 console.log("METODO COMPARAR ELEMENTOS DENTRO DE ARRAY DISTINTOS");
-comparar(valores[3], valores[4]);
+comparar(valores[a], valores[b]);
 console.log("METODO OPERACIONES MATEMATICAS DENTRO DE UN ARRAY DISTINTOS");
 matematica(valores[1], valores[5]);
 console.log("METODO COMPARAR ELEMENTOS Y DEVOLVER UN BOOLEANO DENTRO DE UN ARRAY");
