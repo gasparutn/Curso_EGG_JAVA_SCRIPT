@@ -7,5 +7,10 @@ console.log(matriz);
 
 let arrayNuevo = matriz.flat([1]);
 // retorna elementos para el nuevo array
-delete arrayNuevo[0];
-console.log(arrayNuevo);
+let arr=[5];
+for (let i = 0; i < arrayNuevo.length; i++) {
+    arr[i]= arrayNuevo[i]+3;
+    
+}
+
+console.log(arr);

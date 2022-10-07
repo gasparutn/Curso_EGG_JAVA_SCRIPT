@@ -1,12 +1,11 @@
-function datos(){
-    var nombree= document.getElementById('nombre').value;
-    var apellidoo= document.getElementById("apellido").value
-    
-    document.form1.nombre.value= nombree;
-    document.form1.apellido.value= apellido;
-    
-    
+function getFormValores() {
+    let formulario = document.getElementById("form1");
+    console.log(formulario[1]);
+
+    /* Un formulario puede ser visto como un vector con sus etiquetas como elementos. */
+
+    alert(`El nombre es ${formulario.elements[0].value}`)
+    alert(`El apellido es ${formulario.elements[1].value}`)
+
 }
-
-
-datos()
+getFormValores()
